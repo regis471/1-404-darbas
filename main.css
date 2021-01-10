@@ -1,0 +1,97 @@
+body{
+    margin-left: calc((100% - 900px) / 2 );
+    display: inline-block;
+    width: 900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+h2{
+    display: inline-block;
+    margin: 0;
+    
+}
+
+nav{ 
+    
+    float: right ;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav > a {
+    
+    text-decoration: none ;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 19px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    
+    
+   
+}
+
+nav > button{
+    display: inline-block ;
+    text-decoration: none ;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 10px;
+    height: 20px;
+       
+}
+
+main{
+    display: inline-block;
+    width: 100%;
+
+}
+main > div{
+    display: inline-block;
+    width: 20% ;
+    float: left ;
+    margin-left: 10% ;
+    margin-top : 5% ;    
+}
+
+h1{
+    display:inline-block ;
+    width: 100%;
+    font-size: 35px;
+    margin: 0;
+}
+
+p{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 55px;
+
+}
+p > a{
+    color: red;
+
+}
+
+input{
+    width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px ;
+  border-style: outset;
+}
+
+img{
+    display: inline-block;
+    width: 65%;
+    float: right;
+    margin-right: 0% ;
+}
+    
